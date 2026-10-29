@@ -20,7 +20,7 @@
       const data=await response.json();list.replaceChildren();
       if(data.notes.length)data.notes.forEach(note=>list.append(noteCard(note)));
       else list.innerHTML='<p class="guestbook-empty">No notes yet. You could be the first.</p>';
-    }catch{list.innerHTML='<p class="guestbook-empty">Notes are unavailable right now. Please try again later.</p>';}
+    }catch(error){console.error('Guestbook notes could not load:',error);list.innerHTML='<p class="guestbook-empty">Notes are unavailable right now. Please try again later.</p>';}
   }
   form.addEventListener('submit',async event=>{
     event.preventDefault();if(!form.reportValidity())return;
