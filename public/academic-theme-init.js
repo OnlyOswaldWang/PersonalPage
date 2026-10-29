@@ -1,1 +1,2 @@
-try {document.documentElement.dataset.theme=localStorage.getItem('oswald-academic-theme')==='dark'?'dark':'light';} catch {document.documentElement.dataset.theme='light';}
+// Every page starts in dark mode. The toggle changes only the current page.
+document.documentElement.dataset.theme = 'dark';

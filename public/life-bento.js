@@ -22,7 +22,7 @@
     document.querySelector('meta[name="theme-color"]').setAttribute('content',dark?'#14121d':'#f2eff8');
   }
   applyTheme(root.dataset.theme);
-  themeButton.addEventListener('click',()=>{const next=root.dataset.theme==='dark'?'light':'dark';applyTheme(next);try{sessionStorage.setItem('oswald-life-theme',next);}catch{}});
+  themeButton.addEventListener('click',()=>{const next=root.dataset.theme==='dark'?'light':'dark';applyTheme(next);});
   document.querySelectorAll('.bento').forEach(card=>card.addEventListener('pointermove',event=>{const r=card.getBoundingClientRect();card.style.setProperty('--mouse-x',`${event.clientX-r.left}px`);card.style.setProperty('--mouse-y',`${event.clientY-r.top}px`);}));
   const segmentMap={0:'abcedf',1:'bc',2:'abged',3:'abgcd',4:'fgbc',5:'afgcd',6:'afgecd',7:'abc',8:'abcdefg',9:'abfgcd'};
   const digitRoot=document.querySelector('.clock-digits');

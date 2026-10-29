@@ -1,7 +1,7 @@
 (() => {
   const root=document.documentElement,theme=document.querySelector('#life-theme');
   function setTheme(value){root.dataset.theme=value;const dark=value==='dark';theme.textContent=dark?'Light ◐':'Dark ◐';theme.setAttribute('aria-label',dark?'Switch to light theme':'Switch to dark theme');theme.setAttribute('aria-pressed',String(dark));document.querySelector('meta[name="theme-color"]').content=dark?'#14121d':'#f2eff8';}
-  setTheme(root.dataset.theme);theme.addEventListener('click',()=>{const value=root.dataset.theme==='dark'?'light':'dark';setTheme(value);try{sessionStorage.setItem('oswald-life-theme',value);}catch{}});
+  setTheme(root.dataset.theme);theme.addEventListener('click',()=>{const value=root.dataset.theme==='dark'?'light':'dark';setTheme(value);});
   const dialog=document.querySelector('#collection-dialog'),image=document.querySelector('#collection-full'),title=document.querySelector('#collection-dialog-title'),caption=document.querySelector('#collection-caption'),prev=document.querySelector('#collection-prev'),next=document.querySelector('#collection-next');
   const album=document.querySelector('.album-grid'),screen=document.querySelector('.screen-wall');
   let dataset=null,loading=null,current=0,visible=[];

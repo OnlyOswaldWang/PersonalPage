@@ -1,9 +1,8 @@
 const root=document.documentElement;
-const themeStorageKey=document.body.classList.contains('academic-page')?'oswald-academic-theme':'oswald-theme';
-let theme='light';try{theme=localStorage.getItem(themeStorageKey)==='dark'?'dark':'light';}catch{}
+let theme='dark';
 function applyTheme(value){root.dataset.theme=value;const toggle=document.querySelector('.theme-toggle');const label=value==='dark'?'Switch to light theme':'Switch to dark theme';toggle?.setAttribute('aria-label',label);toggle?.setAttribute('title',label);toggle?.setAttribute('aria-pressed',String(value==='dark'));const text=toggle?.querySelector('.theme-toggle-label');if(text)text.textContent=value==='dark'?'Light mode':'Dark mode';}
 applyTheme(theme);
-document.querySelector('.theme-toggle')?.addEventListener('click',()=>{theme=root.dataset.theme==='dark'?'light':'dark';applyTheme(theme);try{localStorage.setItem(themeStorageKey,theme);}catch{}});
+document.querySelector('.theme-toggle')?.addEventListener('click',()=>{theme=root.dataset.theme==='dark'?'light':'dark';applyTheme(theme);});
 function updateClock(){const clock=document.querySelector('.local-time');if(clock){clock.textContent=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date());clock.dateTime=new Date().toISOString();}}
 updateClock();if(document.querySelector('.local-time'))setInterval(updateClock,30000);
 const gamesToggle=document.querySelector('#games-toggle');
