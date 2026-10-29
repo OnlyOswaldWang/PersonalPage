@@ -4,7 +4,7 @@
   const dialog=document.querySelector('#guestbook-dialog');
   const status=document.querySelector('#guestbook-status');
   const submit=form.querySelector('[type="submit"]');
-  const api=(location.hostname.toLowerCase()==='jimmyhomeless.github.io'?'https://zhicheng-wang-robotics-portfolio.alightjam34.chatgpt.site':'')+'/api/guestbook';
+  const api=(location.hostname.toLowerCase()==='onlyoswaldwang.github.io'?'https://zhicheng-wang-robotics-portfolio.alightjam34.chatgpt.site':'')+'/api/guestbook';
   function noteCard(note){
     const article=document.createElement('article');article.className='guestbook-note';
     const header=document.createElement('header'),name=document.createElement('strong'),time=document.createElement('time'),message=document.createElement('p');
