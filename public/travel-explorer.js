@@ -4,7 +4,7 @@
   const order=['fujian','dalian','shanghai','chongqing','guangdong','hong-kong','macau','mountains','night-skies','korea','manchester','leeds'];
   const groups=new Map(),stageImage=document.querySelector('#region-image'),stageTitle=document.querySelector('#region-title'),description=document.querySelector('#region-description'),eyebrow=document.querySelector('#region-eyebrow'),progress=document.querySelector('#region-progress'),bar=document.querySelector('#region-progress-bar');
   const dialog=document.querySelector('#collection-dialog'),full=document.querySelector('#collection-full'),dialogTitle=document.querySelector('#collection-dialog-title'),caption=document.querySelector('#collection-caption');
-  let active='fujian',index=0,timer=null,albumVisible=false;
+  let active='fujian',index=0,timer=null,albumVisible=false,queued=null;
   const current=()=>groups.get(active)||[];
   function render(){
     const set=current();if(!set.length)return;
@@ -19,7 +19,8 @@
   function advance(delta){const set=current();if(!set.length)return;index=(index+delta+set.length)%set.length;render();}
   function animate(){clearInterval(timer);if(document.hidden||!albumVisible||current().length<2||dialog.open)return;timer=setInterval(()=>advance(1),5200);}
   new IntersectionObserver(entries=>{albumVisible=entries[0].isIntersecting;animate();},{rootMargin:'120px'}).observe(document.querySelector('#album'));
-  function select(group){if(!groups.has(group))return;active=group;index=0;document.querySelectorAll('[data-region]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.region===group)));render();animate();}
+  function select(group,priority=false){if(!groups.has(group)){if(!queued||priority)queued=group;return;}queued=null;active=group;index=0;document.querySelectorAll('[data-region]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.region===group)));render();animate();}
+  document.querySelectorAll('.earth-point[data-region]').forEach(button=>{button.addEventListener('mouseenter',()=>select(button.dataset.region));button.addEventListener('focus',()=>select(button.dataset.region));button.addEventListener('click',()=>select(button.dataset.region,true));});
   fetch('assets/travel/album.json').then(response=>{if(!response.ok)throw Error('Album unavailable');return response.json();}).then(data=>{
     data.photos.forEach(photo=>{if(!groups.has(photo.group))groups.set(photo.group,[]);groups.get(photo.group).push(photo);});
     order.filter(group=>groups.has(group)).forEach(group=>{
@@ -27,7 +28,7 @@
       const thumb=document.createElement('img');thumb.src=set[0].src;thumb.alt='';thumb.loading='lazy';
       const copy=document.createElement('span'),name=document.createElement('strong'),count=document.createElement('small');name.textContent=names[group]||set[0].label;count.textContent=`${set.length} ${set.length===1?'photo':'photos'}`;copy.append(name,count);button.append(thumb,copy);
       button.addEventListener('mouseenter',()=>select(group));button.addEventListener('focus',()=>select(group));button.addEventListener('click',()=>select(group));list.append(button);
-    });document.querySelectorAll('.earth-point[data-region]').forEach(button=>{button.addEventListener('mouseenter',()=>select(button.dataset.region));button.addEventListener('focus',()=>select(button.dataset.region));button.addEventListener('click',()=>select(button.dataset.region));});select(active);
+    });select(queued||active);
   }).catch(()=>{description.textContent='The album could not load. Please refresh and try again.';});
   document.querySelector('#region-prev').addEventListener('click',()=>{advance(-1);animate();});
   document.querySelector('#region-next').addEventListener('click',()=>{advance(1);animate();});
