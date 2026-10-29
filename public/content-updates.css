@@ -1,0 +1,55 @@
+.academic-page .profile-avatar img{object-position:50% 50%;transform:scale(1.35);transform-origin:50% 44%;filter:saturate(.8)}
+.academic-page .clinical-project>.project-image img{object-fit:contain}
+.academic-page .clinical-project .clinical-source-link{display:block;font-size:11px;color:#687d8f;margin-top:10px;width:fit-content}
+.clinical-source-link:hover,.clinical-repo-links a:hover{text-decoration:underline;text-underline-offset:3px}
+.clinical-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin:26px 0;border-top:1px solid #e2e6e9;border-bottom:1px solid #e2e6e9;padding:18px 0}
+.clinical-facts strong{display:block;font-size:18px;font-weight:500;color:#40586c;line-height:1.5}
+.clinical-facts span{display:block;font-size:10px;color:#8a9299;margin-top:4px}
+.clinical-architecture{margin:24px 0 30px}
+.clinical-architecture img{display:block;width:100%;height:auto;border:1px solid #e2e6e9;border-radius:4px}
+.clinical-architecture figcaption{font-size:10px;line-height:1.8;color:#8a9299;margin-top:9px}
+.clinical-table-wrap{width:100%;margin:16px 0 28px}
+.clinical-task-table{width:100%;border-collapse:collapse;font-size:12px;line-height:1.75;text-align:left;color:#68717a}
+.clinical-task-table th,.clinical-task-table td{padding:12px 10px;border-bottom:1px solid #e2e6e9;vertical-align:top;overflow-wrap:anywhere}
+.clinical-task-table thead th{font-size:10px;font-weight:600;color:#7c8790;background:#f7f9fa}
+.clinical-task-table tbody th{font-weight:500;color:#40586c;width:40px}
+.clinical-methods{padding-left:20px;margin:15px 0 27px}
+.clinical-methods li{padding-left:4px;margin-bottom:15px;line-height:1.85;color:#68717a}
+.clinical-methods strong{font-weight:600;color:#4d5964}
+.clinical-repo-links{display:flex;gap:22px;flex-wrap:wrap}
+@media(max-width:700px){.clinical-facts{gap:10px}.clinical-facts strong{font-size:15px}.clinical-facts span{font-size:9px}.clinical-task-table{font-size:11px}.clinical-task-table th,.clinical-task-table td{padding:10px 7px}.clinical-task-table thead th{font-size:9px}.clinical-architecture figcaption{font-size:9px}}
+.academic-page .research-nav{gap:23px}
+.academic-page .research-project.pending-project{display:block;padding-bottom:22px;margin-bottom:22px}
+.academic-page .pending-project h3{font-size:18px;margin-top:8px;margin-bottom:8px}
+.academic-page .research-project .materials-note{color:#8a9299;font-size:12px}
+.academic-page .publication .equal-contribution{font-size:11px!important;color:#6f7c87!important;margin:0 0 9px}
+.publication-overview{display:grid;grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:23px;align-items:center;margin:21px 0 1px;padding-top:18px;border-top:1px solid #eef0f2}
+.publication-overview>img{width:100%;height:auto;display:block;border:1px solid #e8edf0;border-radius:3px}
+.academic-page .publication-overview figcaption>p{font-size:12px!important;color:#68717a!important;line-height:1.8}
+.academic-page .publication-overview figcaption>p.visual-source{font-size:10px!important;color:#8a9299!important;margin-top:10px}
+.publication-overview .visual-source a{color:#355e83;text-decoration:underline;text-underline-offset:2px}
+.academic-page .undergrad-grid.leadership-only{display:block}
+.academic-page .honours-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px;border-top:1px solid #e2e6e9;padding-top:23px}
+.academic-page .honours-grid h3{font-size:15px;margin:0 0 22px;line-height:1.5}
+.honours-list{list-style:none;padding:0;margin:0}
+.honours-list li{margin:0 0 19px;padding-left:13px;border-left:2px solid #e5eaee}
+.honours-list strong{font-size:13px;line-height:1.75;color:#3a4650;font-weight:600;display:block}
+.honours-list li>span{display:block;font-size:12px;line-height:1.8;color:#78828b;margin-top:3px}
+.academic-page .ip-group-title{font-size:17px;line-height:1.5;margin:27px 0 15px;font-weight:600}
+.academic-page .ip-record{display:grid;grid-template-columns:170px minmax(0,1fr);gap:25px;padding:19px 0;border-top:1px solid #e2e6e9}
+.ip-type{font-size:10px;line-height:1.8;color:#8a9299}
+.academic-page .ip-record h4{font-size:15px;line-height:1.6;color:#3a4650;font-weight:500;margin:0 0 8px}
+.academic-page .ip-record p{font-size:12px;line-height:1.7;color:#7e8992;margin:0}
+.additional-publications{border-top:1px solid #e2e6e9;margin-top:10px}
+.additional-publications summary{padding:18px 0;color:#64707a;font-size:13px;cursor:pointer;list-style:revert}
+.additional-publications summary>span{font-size:9px;color:#8a9299;margin-left:12px}
+.additional-publications summary:hover{color:#355e83}
+.additional-publications summary:focus-visible{outline:2px solid #355e83;outline-offset:3px}
+.academic-page .additional-paper{padding:8px 0 22px 20px;max-width:850px}
+.academic-page .additional-paper h3{font-size:15px;line-height:1.65;margin:10px 0;color:#4d5964}
+.academic-page .additional-paper .eyebrow{font:10px/1.7 Arial,Helvetica,sans-serif;color:#7b858e;letter-spacing:0}
+.academic-page .additional-paper .authors,.academic-page .additional-paper .additional-venue{font-size:12px;color:#78828b;line-height:1.8;margin-bottom:8px}
+.academic-page .additional-paper .additional-contribution{font-size:11px;line-height:1.8;color:#8a9299;margin-bottom:8px}
+.academic-page .additional-paper .doi-link{font-size:10px;overflow-wrap:anywhere;max-width:100%}
+@media(max-width:700px){.academic-page .additional-paper{padding-left:0}.academic-page .additional-paper .doi-link{font-size:9px}.academic-page .additional-paper .authorship{display:inline-block;margin-left:5px}.academic-page .additional-paper h3{font-size:14px}}
+@media(max-width:700px){.academic-page .research-nav{gap:20px}.publication-overview{grid-template-columns:1fr;gap:13px;padding-top:16px;margin-top:18px}.publication-overview>img{max-width:440px}.academic-page .publication-overview figcaption>p{font-size:11px!important}.academic-page .publication-overview figcaption>p.visual-source{font-size:9px!important;margin-top:8px}.academic-page .honours-grid{grid-template-columns:1fr;gap:21px;padding-top:20px}.academic-page .honours-grid h3{font-size:15px;margin-bottom:19px}.honours-list strong{font-size:13px}.honours-list li>span{font-size:12px}.academic-page .ip-record{grid-template-columns:1fr;gap:9px;padding:19px 0}.academic-page .ip-record h4{font-size:14px;margin-bottom:7px}.academic-page .ip-record p{font-size:11px}.ip-type{font-size:9px}.academic-page .ip-group-title{font-size:16px;margin-top:24px}.academic-page .pending-project h3{font-size:18px}}

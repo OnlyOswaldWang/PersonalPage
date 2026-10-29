@@ -1,0 +1,190 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.967
+Hello everyone. My name is Zhicheng Wang.
+
+00:00:02.967 --> 00:00:05.600
+In this video, I will explore how robotics
+
+00:00:05.600 --> 00:00:10.000
+can contribute to the Sustainable Development Goals.
+
+00:00:10.000 --> 00:00:14.100
+Industrial robots automate production.
+
+00:00:14.100 --> 00:00:20.000
+Service robots perform useful tasks for people or equipment.
+
+00:00:20.000 --> 00:00:24.100
+Industrial robots weld and assemble products.
+
+00:00:24.100 --> 00:00:28.133
+Consumer robots clean homes and support learning.
+
+00:00:28.133 --> 00:00:34.333
+Professional robots transport goods, clean workplaces and cultivate crops.
+
+00:00:34.333 --> 00:00:40.000
+Medical robots assist surgery, diagnosis and rehabilitation.
+
+00:00:40.000 --> 00:00:44.800
+A robot measures its surroundings using sensors.
+
+00:00:44.800 --> 00:00:50.000
+A controller chooses a command, and actuators produce movement.
+
+00:00:50.000 --> 00:00:52.867
+Feedback repeats this cycle.
+
+00:00:52.867 --> 00:01:00.000
+When conditions change, new measurements update the command and the robot adjusts.
+
+00:01:00.000 --> 00:01:04.200
+The United Nations' seventeen Sustainable Development Goals
+
+00:01:04.200 --> 00:01:10.000
+guide action for people and planet.
+
+00:01:10.000 --> 00:01:14.267
+Autonomous boats map water quality.
+
+00:01:14.267 --> 00:01:20.000
+Their measurements can guide further investigation.
+
+00:01:20.000 --> 00:01:25.100
+Educational robots let learners test sensing and control.
+
+00:01:25.100 --> 00:01:30.000
+These experiments can build technical skills.
+
+00:01:30.000 --> 00:01:34.733
+Robotic disassembly separates components for recovery.
+
+00:01:34.733 --> 00:01:40.000
+Recovery also depends on damage and energy use.
+
+00:01:40.000 --> 00:01:44.833
+Agricultural robots can locate weeds and target treatment.
+
+00:01:44.833 --> 00:01:50.000
+Results depend on conditions in the field.
+
+00:01:50.000 --> 00:01:55.300
+Rehabilitation robots assist movement under clinical supervision.
+
+00:01:55.300 --> 00:02:00.000
+Patient consent remains essential.
+
+00:02:00.000 --> 00:02:04.267
+Underwater robots photograph the seabed.
+
+00:02:04.267 --> 00:02:10.000
+Located images help researchers assess marine habitats.
+
+00:02:10.000 --> 00:02:14.500
+Blade crawlers record wind turbine surfaces.
+
+00:02:14.500 --> 00:02:20.000
+Engineers use inspection records to plan maintenance.
+
+00:02:20.000 --> 00:02:25.267
+Remote-controlled machines separate operators from demolition.
+
+00:02:25.267 --> 00:02:30.000
+Training and controlled work zones remain essential.
+
+00:02:30.000 --> 00:02:34.400
+Robotic printers place concrete layer by layer.
+
+00:02:34.400 --> 00:02:40.000
+Assess materials, energy and service life.
+
+00:02:40.000 --> 00:02:44.267
+We now examine sustainable agriculture.
+
+00:02:44.267 --> 00:02:50.000
+Can robots remove weeds without harming crops?
+
+00:02:50.000 --> 00:02:55.233
+Crops and weeds compete for water, light and nutrients.
+
+00:02:55.233 --> 00:03:00.000
+Control weeds while protecting crops.
+
+00:03:00.000 --> 00:03:04.667
+Define the field boundary and plan the planting lines.
+
+00:03:04.667 --> 00:03:10.000
+The robot aligns with this plan.
+
+00:03:10.000 --> 00:03:14.267
+Each seed is placed and its position recorded.
+
+00:03:14.267 --> 00:03:20.000
+The robot uses this map on later visits.
+
+00:03:20.000 --> 00:03:24.267
+Positioning connects the machine to its seed map.
+
+00:03:24.267 --> 00:03:30.000
+Commands depend on tool position and timing.
+
+00:03:30.000 --> 00:03:34.267
+The tool loosens soil between the crop lines.
+
+00:03:34.267 --> 00:03:40.000
+The loosened plants remain on the surface.
+
+00:03:40.000 --> 00:03:44.267
+Small knives enter gaps between neighbouring plants.
+
+00:03:44.267 --> 00:03:50.000
+They retract near stored crop positions.
+
+00:03:50.000 --> 00:03:54.267
+Mechanical weeding may reduce herbicide use.
+
+00:03:54.267 --> 00:04:00.000
+Inspect the field and plan further control.
+
+00:04:00.000 --> 00:04:04.267
+Sunlight and workload affect battery endurance.
+
+00:04:04.267 --> 00:04:10.000
+Soil, weather and weed size affect performance.
+
+00:04:10.000 --> 00:04:14.267
+Compare remaining weeds and crop injury.
+
+00:04:14.267 --> 00:04:20.000
+Count all labour, energy and follow-up work.
+
+00:04:20.000 --> 00:04:24.633
+Position errors can direct tools towards crops.
+
+00:04:24.633 --> 00:04:30.000
+Keep human override and define responsibilities.
+
+00:04:30.000 --> 00:04:34.933
+Robots change work and can put incomes at risk.
+
+00:04:34.933 --> 00:04:40.000
+Fund training and involve affected workers.
+
+00:04:40.000 --> 00:04:44.267
+Shared services may widen access.
+
+00:04:44.267 --> 00:04:50.000
+Agree repair support and control of farm records.
+
+00:04:50.000 --> 00:04:51.233
+I am Zhicheng Wang.
+
+00:04:51.233 --> 00:04:53.200
+Thank you for watching my video.
+
+00:04:53.200 --> 00:04:55.600
+If you are interested in robotics too,
+
+00:04:55.600 --> 00:04:58.000
+I'd love to hear from you.

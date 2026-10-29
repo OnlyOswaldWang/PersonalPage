@@ -1,0 +1,52 @@
+.academic-tools{display:flex;align-items:center;gap:20px}
+.academic-shell .academic-header .academic-theme-toggle{width:auto;height:34px;display:inline-flex;align-items:center;gap:7px;padding:6px 11px;border:1px solid #d6e0e8;background:#f2f6f9;border-radius:5px;color:#42647e;font:11px/1.5 Arial,Helvetica,sans-serif;letter-spacing:0;cursor:pointer}
+.academic-theme-toggle svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.academic-theme-toggle .theme-sun{display:none}
+:root[data-theme=dark] .academic-theme-toggle .theme-moon{display:none}
+:root[data-theme=dark] .academic-theme-toggle .theme-sun{display:block}
+.academic-shell .academic-theme-toggle:hover{border-color:#6e99b5}
+.academic-shell>.page-wrap>.section,.academic-shell>.page-wrap>.academic-header,.academic-shell>.page-wrap>.academic-footer{position:relative;z-index:1}
+.research-sky{z-index:0}
+.research-meteor{width:270px;height:2px;background:linear-gradient(90deg,#527eaedb,#76a9d18c 35%,transparent);filter:drop-shadow(0 0 3px #7aa7d44d);animation:research-meteor-visible 8.5s linear infinite}
+.research-meteor:before{width:4px;height:4px;top:-1px;background:#5487b4;box-shadow:0 0 8px #588fc4aa,0 0 18px #7bb8db66}
+@keyframes research-meteor-visible{0%{opacity:0;transform:translate3d(250px,-155px,0) rotate(-32deg)}4%{opacity:.85}28%{opacity:.7}39%{opacity:0;transform:translate3d(-570px,355px,0) rotate(-32deg)}100%{opacity:0;transform:translate3d(-570px,355px,0) rotate(-32deg)}}
+:root[data-theme=dark] .academic-page{--bg:#101925;--card:#172333;--ink:#e4edf5;--muted:#a4b5c7;--line:#2c3b4d;--accent:#9ed4f2;--soft:#1b2c40;background:#101925;color:#b6c5d4;color-scheme:dark}
+:root[data-theme=dark] .academic-page .academic-shell main{color:#b6c5d4}
+:root[data-theme=dark] .academic-page .academic-shell main :is(h2,h3,h4){color:#e4edf5!important}
+:root[data-theme=dark] .academic-page .academic-shell main p{color:#a9bacb!important}
+:root[data-theme=dark] .academic-page .academic-shell main .eyebrow{color:#89a5bf!important}
+:root[data-theme=dark] .academic-page .academic-shell main :is(.authors,.experience-date,.education-dates,.ip-type,.count-label,.academic-footer,.academic-header,.section-heading>p,.film-language,.paper-no){color:#91a6bb!important}
+:root[data-theme=dark] .academic-page .academic-shell main :is(.academic-header a,.doi-link,.text-button,.clinical-source-link,.research-nav a,.academic-footer a){color:#9bceec!important}
+:root[data-theme=dark] .academic-page .academic-shell main :is(.publication,.research-project,.education-card,.experience,.ip-record,.skill-rows>div,.honours-grid,.academic-footer,.academic-header,.research-nav,.undergrad-note,.undergraduate-feature,.additional-publications){border-color:#2a3c50!important}
+:root[data-theme=dark] .academic-page .academic-shell .research-nav{background:#101925ed}
+:root[data-theme=dark] .academic-page .academic-shell main :is(.authorship,.tags>span){background:#1b2d40;border-color:#344e65;color:#bad2e6}
+:root[data-theme=dark] .academic-page .academic-shell main :is(.honours-list strong,.education-scores strong,.achievement strong){color:#d2e2ef}
+:root[data-theme=dark] .academic-page .academic-shell main .honours-list li{border-color:#426780}
+:root[data-theme=dark] .academic-page .academic-shell main :is(.honours-list li>span,.expected-pill,.experience-date>span,.education-scores strong>span,.additional-publications summary,.additional-publications summary>span,.achievement span){color:#91a9bf}
+:root[data-theme=dark] .academic-page .academic-shell .academic-header .academic-theme-toggle{background:#21364b;border-color:#3b5872;color:#bde2f6}
+:root[data-theme=dark] .academic-page .research-project>.project-image{background:#e8eef2;border-color:#3a5066}
+:root[data-theme=dark] .research-meteor{background:linear-gradient(90deg,#c5f2ff,#76c4efb0 35%,transparent);filter:drop-shadow(0 0 5px #74c7fd77)}
+:root[data-theme=dark] .research-meteor:before{background:#e2f8ff;box-shadow:0 0 9px #a4eaff,0 0 22px #67b8fa88}
+:root[data-theme=dark] .academic-page :is(.interest-dialog,.discovery-dialog){background:#172536;border-color:#3a526b;color:#d0dfed}
+:root[data-theme=dark] .academic-page :is(.interest-dialog,.discovery-dialog) h2{color:#e2edf6}
+:root[data-theme=dark] .academic-page :is(.interest-dialog,.discovery-dialog) p{color:#a6bbce}
+:root[data-theme=dark] .academic-page :is(.interest-close,.discovery-close,.discovery-stay){color:#a6bbce}
+:root[data-theme=dark] .academic-page .interest-tags span{color:#b5cede;border-color:#38516a}
+:root[data-theme=dark] .academic-page .interest-more{color:#a8daef;border-color:#4a6b85}
+:root[data-theme=dark] .academic-page .discovery-enter{background:#345976;border-color:#507b9a;color:#e9f4fc}
+/* Research figures retain their original light paper background. */
+:root[data-theme=dark] .academic-page #project-dialog{--bg:#fff;--card:#fff;--ink:#252b31;--muted:#68717a;--line:#e2e6e9;--accent:#355e83;--soft:#f5f7f8;background:#fff;color:#252b31;color-scheme:light}
+@media(max-width:620px){.academic-tools{gap:14px}.academic-shell .academic-header .academic-theme-toggle{font-size:10px;padding:6px 9px}}
+@media(prefers-reduced-motion:reduce){.research-meteor{animation:none!important}}
+/* Light mode uses soft, layered comets rather than night-sky streaks. */
+:root:not([data-theme=dark]) .research-sky:before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 82% 14%,#c6dff635,transparent 48%),radial-gradient(ellipse at 22% 80%,#e4ddf32b,transparent 44%);pointer-events:none}
+:root:not([data-theme=dark]) .research-meteor{width:230px;height:3px;border-radius:100%;background:linear-gradient(90deg,#477fba,#77b7da8c 22%,#aaa4d43b 58%,transparent);filter:drop-shadow(0 0 5px #93bde154);animation-name:daylight-comet;animation-duration:10s}
+:root:not([data-theme=dark]) .research-meteor:before{width:6px;height:6px;left:-1px;top:-1.5px;background:#4d86be;border:1px solid #d8ebfa;border-radius:50%;box-shadow:0 0 0 3px #8bb8e21f,0 0 11px #77a9d273}
+:root:not([data-theme=dark]) .research-meteor:after{content:"";position:absolute;left:-10px;top:-12px;width:165px;height:27px;background:radial-gradient(ellipse at 15% 50%,#8bbbe23b,#bbb5e118 48%,transparent 74%);border-radius:50%;filter:blur(3px)}
+:root:not([data-theme=dark]) .meteor-0{animation-delay:-.3s}
+:root:not([data-theme=dark]) .meteor-1{animation-delay:-1.9s}
+:root:not([data-theme=dark]) .meteor-2{animation-delay:-3.6s}
+:root:not([data-theme=dark]) .meteor-3{animation-delay:-5.3s}
+:root:not([data-theme=dark]) .meteor-4{animation-delay:-7s}
+:root:not([data-theme=dark]) .meteor-5{animation-delay:-8.6s}
+@keyframes daylight-comet{0%{opacity:0;transform:translate3d(240px,-150px,0) rotate(-28deg) scaleX(.8)}5%{opacity:.95}24%{opacity:.78}42%{opacity:0;transform:translate3d(-540px,320px,0) rotate(-35deg) scaleX(1.15)}100%{opacity:0;transform:translate3d(-540px,320px,0) rotate(-35deg) scaleX(1.15)}}

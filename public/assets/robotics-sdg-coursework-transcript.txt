@@ -1,0 +1,21 @@
+Hello everyone. My name is Zhicheng Wang. In this video, I will explore how robotics can contribute to the Sustainable Development Goals. Industrial robots automate production. Service robots perform useful tasks for people or equipment. Industrial robots weld and assemble products.
+
+Consumer robots clean homes and support learning. Professional robots transport goods, clean workplaces and cultivate crops. Medical robots assist surgery, diagnosis and rehabilitation. A robot measures its surroundings using sensors. A controller chooses a command, and actuators produce movement. Feedback repeats this cycle.
+
+When conditions change, new measurements update the command and the robot adjusts. The United Nations' seventeen Sustainable Development Goals guide action for people and planet. Autonomous boats map water quality. Their measurements can guide further investigation. Educational robots let learners test sensing and control.
+
+These experiments can build technical skills. Robotic disassembly separates components for recovery. Recovery also depends on damage and energy use. Agricultural robots can locate weeds and target treatment. Results depend on conditions in the field. Rehabilitation robots assist movement under clinical supervision.
+
+Patient consent remains essential. Underwater robots photograph the seabed. Located images help researchers assess marine habitats. Blade crawlers record wind turbine surfaces. Engineers use inspection records to plan maintenance. Remote-controlled machines separate operators from demolition.
+
+Training and controlled work zones remain essential. Robotic printers place concrete layer by layer. Assess materials, energy and service life. We now examine sustainable agriculture. Can robots remove weeds without harming crops? Crops and weeds compete for water, light and nutrients.
+
+Control weeds while protecting crops. Define the field boundary and plan the planting lines. The robot aligns with this plan. Each seed is placed and its position recorded. The robot uses this map on later visits. Positioning connects the machine to its seed map.
+
+Commands depend on tool position and timing. The tool loosens soil between the crop lines. The loosened plants remain on the surface. Small knives enter gaps between neighbouring plants. They retract near stored crop positions. Mechanical weeding may reduce herbicide use.
+
+Inspect the field and plan further control. Sunlight and workload affect battery endurance. Soil, weather and weed size affect performance. Compare remaining weeds and crop injury. Count all labour, energy and follow-up work. Position errors can direct tools towards crops.
+
+Keep human override and define responsibilities. Robots change work and can put incomes at risk. Fund training and involve affected workers. Shared services may widen access. Agree repair support and control of farm records. I am Zhicheng Wang.
+
+Thank you for watching my video. If you are interested in robotics too, I'd love to hear from you.

@@ -1,0 +1,18 @@
+const root=document.documentElement;
+const themeStorageKey=document.body.classList.contains('academic-page')?'oswald-academic-theme':'oswald-theme';
+let theme='light';try{theme=localStorage.getItem(themeStorageKey)==='dark'?'dark':'light';}catch{}
+function applyTheme(value){root.dataset.theme=value;const toggle=document.querySelector('.theme-toggle');const label=value==='dark'?'Switch to light theme':'Switch to dark theme';toggle?.setAttribute('aria-label',label);toggle?.setAttribute('title',label);toggle?.setAttribute('aria-pressed',String(value==='dark'));const text=toggle?.querySelector('.theme-toggle-label');if(text)text.textContent=value==='dark'?'Light mode':'Dark mode';}
+applyTheme(theme);
+document.querySelector('.theme-toggle')?.addEventListener('click',()=>{theme=root.dataset.theme==='dark'?'light':'dark';applyTheme(theme);try{localStorage.setItem(themeStorageKey,theme);}catch{}});
+function updateClock(){const clock=document.querySelector('.local-time');if(clock){clock.textContent=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/London',hour:'2-digit',minute:'2-digit',hour12:false}).format(new Date());clock.dateTime=new Date().toISOString();}}
+updateClock();if(document.querySelector('.local-time'))setInterval(updateClock,30000);
+const gamesToggle=document.querySelector('#games-toggle');
+gamesToggle?.addEventListener('click',()=>{const shelf=document.querySelector('#game-library');const open=shelf.hidden;shelf.hidden=!open;gamesToggle.setAttribute('aria-expanded',String(open));gamesToggle.querySelector('span').textContent=open?'−':'+';});
+const places={
+  uk:{stamp:'UK',status:'MY CURRENT BASE',title:'A new chapter<br>in the UK.',description:'Studying in Manchester has given me a new base for exploring. London, Leeds and Sheffield are among the places I’ve visited so far.',tags:['Manchester','London','Leeds','Sheffield']},
+  china:{stamp:'CN',status:'HOME & FAMILIAR PLACES',title:'A lot of home.<br>A lot left to see.',description:'I’ve travelled to different parts of China, including Shanghai, Beijing, Hong Kong and Macau. I’d like to keep exploring more of the country.',tags:['Shanghai','Beijing','Hong Kong','Macau']},
+  korea:{stamp:'KR',status:'PLACES I’VE VISITED',title:'A little time<br>in South Korea.',description:'Busan and Jeju Island are two places I’ve visited in South Korea. They’re part of a travel list I hope will keep growing.',tags:['Busan','Jeju Island']},
+  japan:{stamp:'JP',status:'STILL ON MY WISHLIST',title:'One day,<br>Japan.',description:'Japan is somewhere I’ve wanted to explore for a long time. I haven’t made the trip yet. For now, it stays on the list.',tags:['Not visited yet','A future trip']}
+};
+document.querySelectorAll('[data-place]').forEach(button=>button.addEventListener('click',()=>{const place=places[button.dataset.place];document.querySelectorAll('[data-place]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));document.querySelector('#place-stamp strong').textContent=place.stamp;document.querySelector('#place-status').textContent=place.status;document.querySelector('#place-title').innerHTML=place.title;document.querySelector('#place-description').textContent=place.description;document.querySelector('#place-tags').replaceChildren(...place.tags.map(text=>{const tag=document.createElement('span');tag.textContent=text;return tag;}));}));
+document.querySelectorAll('.copy-email').forEach(button=>button.addEventListener('click',async()=>{const status=button.parentElement.querySelector('.copy-status');try{await navigator.clipboard.writeText(button.dataset.email);status.textContent='Email copied. Say hello anytime.';}catch{status.textContent=button.dataset.email;}}));

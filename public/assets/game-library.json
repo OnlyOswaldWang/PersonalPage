@@ -1,0 +1,365 @@
+{
+  "note": "Curated recognisable titles from the owner-supplied game list (29 October 2026), retaining Grand Theft Auto V from the earlier owner-supplied library image. No playtime, achievements or last-played data is imported. All cover tiles now have equal area. Smaller games, utilities, duplicate editions and test clients are omitted.",
+  "games": [
+    {
+      "title": "Apex Legends",
+      "app_id": 1172470,
+      "category": "Competitive",
+      "src": "assets/games/1172470.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172470/6cf04767652d703b6050da84b82cfb1194258d7d/header.jpg?t=1790164440",
+      "store_source": "https://store.steampowered.com/app/1172470/?l=english"
+    },
+    {
+      "title": "Counter-Strike 2",
+      "app_id": 730,
+      "category": "Competitive",
+      "src": "assets/games/730.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/730/162664aa5da85f418105350c5d67ca565f6c3713/header.jpg?t=1793054556",
+      "store_source": "https://store.steampowered.com/app/730/?l=english"
+    },
+    {
+      "title": "Overwatch",
+      "app_id": 2357570,
+      "category": "Competitive",
+      "src": "assets/games/2357570.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/5c208b2699cd38ed6125d039be388fa744db54a4/header_alt_assets_23.jpg?t=1791576843",
+      "store_source": "https://store.steampowered.com/app/2357570/?l=english"
+    },
+    {
+      "title": "Cyberpunk 2077",
+      "app_id": 1091500,
+      "category": "Open world",
+      "src": "assets/games/1091500.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1091500/48a93d6445a67520ea49833c93dae8f2e68fc540/header_alt_assets_9.jpg?t=1792682505",
+      "store_source": "https://store.steampowered.com/app/1091500/?l=english"
+    },
+    {
+      "title": "Black Myth: Wukong",
+      "app_id": 2358720,
+      "category": "Adventure",
+      "src": "assets/games/2358720.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2358720/header.jpg?t=1760601605",
+      "store_source": "https://store.steampowered.com/app/2358720/?l=english"
+    },
+    {
+      "title": "Hogwarts Legacy",
+      "app_id": 990080,
+      "category": "Open world",
+      "src": "assets/games/990080.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/990080/be2971b1023bccb04f993887d70ef4d2060262cf/header.jpg?t=1790708992",
+      "store_source": "https://store.steampowered.com/app/990080/?l=english",
+      "source_name": "Hogwarts Legacy"
+    },
+    {
+      "title": "Assassin’s Creed Odyssey",
+      "app_id": 812140,
+      "category": "Open world",
+      "src": "assets/games/812140.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/812140/header.jpg?t=1792778552",
+      "store_source": "https://store.steampowered.com/app/812140/?l=english"
+    },
+    {
+      "title": "Red Dead Redemption 2",
+      "app_id": 1174180,
+      "category": "Open world",
+      "src": "assets/games/1174180.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg?t=1759502961",
+      "store_source": "https://store.steampowered.com/app/1174180/?l=english"
+    },
+    {
+      "title": "The Witcher 3: Wild Hunt",
+      "app_id": 292030,
+      "category": "Open world",
+      "src": "assets/games/292030.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/292030/e8afc4252e3fee8ed2525ab2fd7675cca39aa38d/header_alt_assets_1.jpg?t=1790845156",
+      "store_source": "https://store.steampowered.com/app/292030/?l=english",
+      "source_name": "The Witcher 3: Wild Hunt — Remastered"
+    },
+    {
+      "title": "Marvel’s Spider-Man Remastered",
+      "app_id": 1817070,
+      "category": "Open world",
+      "src": "assets/games/1817070.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1817070/header.jpg?t=1787838689",
+      "store_source": "https://store.steampowered.com/app/1817070/?l=english"
+    },
+    {
+      "title": "Marvel’s Spider-Man 2",
+      "app_id": 2651280,
+      "category": "Open world",
+      "src": "assets/games/2651280.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2651280/header.jpg?t=1763569811",
+      "store_source": "https://store.steampowered.com/app/2651280/?l=english",
+      "source_name": "Marvel's Spider-Man 2"
+    },
+    {
+      "title": "Deadlock",
+      "app_id": 1422450,
+      "category": "Competitive",
+      "src": "assets/games/1422450.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1422450/aa249c5e8cc8f90941bd1dbdc311773cd1afe065/header.jpg?t=1790716179",
+      "store_source": "https://store.steampowered.com/app/1422450/?l=english"
+    },
+    {
+      "title": "PUBG: BATTLEGROUNDS",
+      "app_id": 578080,
+      "category": "Competitive",
+      "src": "assets/games/578080.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/578080/841ea38bc58cabb70aef65365cf50bc2d79329d9/header.jpg?t=1792718193",
+      "store_source": "https://store.steampowered.com/app/578080/?l=english"
+    },
+    {
+      "title": "Destiny 2",
+      "app_id": 1085660,
+      "category": "Adventure",
+      "src": "assets/games/1085660.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085660/0ccf0dc0a8c4ec078db7ab99ddc820b2fa884441/header.jpg?t=1781815889",
+      "store_source": "https://store.steampowered.com/app/1085660/?l=english"
+    },
+    {
+      "title": "HITMAN World of Assassination",
+      "app_id": 1659040,
+      "category": "Adventure",
+      "src": "assets/games/1659040.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1659040/c62446d5c95f583a296d7f1b99045a61e2f81dea/header.jpg?t=1793007252",
+      "store_source": "https://store.steampowered.com/app/1659040/?l=english",
+      "source_name": "HITMAN World of Assassination"
+    },
+    {
+      "title": "Watch Dogs: Legion",
+      "app_id": 2239550,
+      "category": "Open world",
+      "src": "assets/games/2239550.jpg",
+      "artwork_source": "https://cdn.akamai.steamstatic.com/steam/apps/2239550/header.jpg",
+      "store_source": "https://store.steampowered.com/app/2239550/?l=english"
+    },
+    {
+      "title": "Watch Dogs 2",
+      "app_id": 447040,
+      "category": "Open world",
+      "src": "assets/games/447040.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/447040/header.jpg?t=1751986887",
+      "store_source": "https://store.steampowered.com/app/447040/?l=english"
+    },
+    {
+      "title": "Far Cry 5",
+      "app_id": 552520,
+      "category": "Open world",
+      "src": "assets/games/552520.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/552520/0dbbd22689fafc2b5b86996257a8e115ff935e81/header.jpg?t=1792530774",
+      "store_source": "https://store.steampowered.com/app/552520/?l=english"
+    },
+    {
+      "title": "Dying Light 2",
+      "app_id": 534380,
+      "category": "Open world",
+      "src": "assets/games/534380.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/534380/header.jpg?t=1788258144",
+      "store_source": "https://store.steampowered.com/app/534380/?l=english"
+    },
+    {
+      "title": "Metro Exodus",
+      "app_id": 412020,
+      "category": "Adventure",
+      "src": "assets/games/412020.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/412020/header.jpg?t=1750772804",
+      "store_source": "https://store.steampowered.com/app/412020/?l=english"
+    },
+    {
+      "title": "Monster Hunter: World",
+      "app_id": 582010,
+      "category": "Adventure",
+      "src": "assets/games/582010.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/582010/header.jpg?t=1791439347",
+      "store_source": "https://store.steampowered.com/app/582010/?l=english",
+      "source_name": "Monster Hunter: World"
+    },
+    {
+      "title": "Forza Horizon 5",
+      "app_id": 1551360,
+      "category": "Open world",
+      "src": "assets/games/1551360.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg?t=1788546569",
+      "store_source": "https://store.steampowered.com/app/1551360/?l=english"
+    },
+    {
+      "title": "Batman: Arkham Knight",
+      "app_id": 208650,
+      "category": "Adventure",
+      "src": "assets/games/208650.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/208650/header.jpg?t=1745534372",
+      "store_source": "https://store.steampowered.com/app/208650/?l=english",
+      "source_name": "Batman™: Arkham Knight"
+    },
+    {
+      "title": "Ghost Recon Wildlands",
+      "app_id": 460930,
+      "category": "Open world",
+      "src": "assets/games/460930.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/460930/36ca0e082902bb8b6f4f0f3ae20de41b1a3c54c6/header.jpg?t=1790268185",
+      "store_source": "https://store.steampowered.com/app/460930/?l=english",
+      "source_name": "Tom Clancy's Ghost Recon® Wildlands"
+    },
+    {
+      "title": "Battlefield 1",
+      "app_id": 1238840,
+      "category": "Competitive",
+      "src": "assets/games/1238840.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238840/header.jpg?t=1777324289",
+      "store_source": "https://store.steampowered.com/app/1238840/?l=english",
+      "source_name": "Battlefield™ 1"
+    },
+    {
+      "title": "Battlefield V",
+      "app_id": 1238810,
+      "category": "Competitive",
+      "src": "assets/games/1238810.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1238810/header.jpg?t=1772707365",
+      "store_source": "https://store.steampowered.com/app/1238810/?l=english",
+      "source_name": "Battlefield™ V"
+    },
+    {
+      "title": "Titanfall 2",
+      "app_id": 1237970,
+      "category": "Adventure",
+      "src": "assets/games/1237970.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1237970/header.jpg?t=1779987598",
+      "store_source": "https://store.steampowered.com/app/1237970/?l=english",
+      "source_name": "Titanfall® 2"
+    },
+    {
+      "title": "Call of Duty",
+      "app_id": 1938090,
+      "category": "Competitive",
+      "src": "assets/games/1938090.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1938090/23af6cf41e2d09620caa07700a4cb3288dbcbaa8/header.jpg?t=1793206213",
+      "store_source": "https://store.steampowered.com/app/1938090/?l=english",
+      "source_name": "Call of Duty®"
+    },
+    {
+      "title": "It Takes Two",
+      "app_id": 1426210,
+      "category": "Co-op",
+      "src": "assets/games/1426210.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1426210/header.jpg?t=1777395376",
+      "store_source": "https://store.steampowered.com/app/1426210/?l=english"
+    },
+    {
+      "title": "Split Fiction",
+      "app_id": 2001120,
+      "category": "Co-op",
+      "src": "assets/games/2001120.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2001120/header.jpg?t=1763484567",
+      "store_source": "https://store.steampowered.com/app/2001120/?l=english",
+      "source_name": "Split Fiction"
+    },
+    {
+      "title": "A Way Out",
+      "app_id": 1222700,
+      "category": "Co-op",
+      "src": "assets/games/1222700.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1222700/header.jpg?t=1777323433",
+      "store_source": "https://store.steampowered.com/app/1222700/?l=english",
+      "source_name": "A Way Out"
+    },
+    {
+      "title": "Sea of Thieves",
+      "app_id": 1172620,
+      "category": "Co-op",
+      "src": "assets/games/1172620.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1172620/579c6d544424019a032f4add98e8f923925c1cef/header.jpg?t=1789650456",
+      "store_source": "https://store.steampowered.com/app/1172620/?l=english"
+    },
+    {
+      "title": "Left 4 Dead 2",
+      "app_id": 550,
+      "category": "Co-op",
+      "src": "assets/games/550.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/550/header.jpg?t=1772742214",
+      "store_source": "https://store.steampowered.com/app/550/?l=english"
+    },
+    {
+      "title": "PAYDAY 2",
+      "app_id": 218620,
+      "category": "Co-op",
+      "src": "assets/games/218620.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/218620/c44949287e8ffa2518f01b5033b8431dd0f984e4/header.jpg?t=1789555107",
+      "store_source": "https://store.steampowered.com/app/218620/?l=english"
+    },
+    {
+      "title": "Portal 2",
+      "app_id": 620,
+      "category": "Puzzle",
+      "src": "assets/games/620.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/620/faffc0f560786e2f05104a8d2fac837c6969bf13/header.jpg?t=1790187113",
+      "store_source": "https://store.steampowered.com/app/620/?l=english"
+    },
+    {
+      "title": "Plants vs. Zombies: Game of the Year",
+      "app_id": 3590,
+      "category": "Strategy",
+      "src": "assets/games/3590.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3590/header.jpg?t=1777394124",
+      "store_source": "https://store.steampowered.com/app/3590/?l=english",
+      "source_name": "Plants vs. Zombies GOTY Edition"
+    },
+    {
+      "title": "Stardew Valley",
+      "app_id": 413150,
+      "category": "Creative",
+      "src": "assets/games/413150.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1786554168",
+      "store_source": "https://store.steampowered.com/app/413150/?l=english"
+    },
+    {
+      "title": "Cities: Skylines",
+      "app_id": 255710,
+      "category": "Creative",
+      "src": "assets/games/255710.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/255710/header.jpg?t=1791468493",
+      "store_source": "https://store.steampowered.com/app/255710/?l=english"
+    },
+    {
+      "title": "Alien: Isolation",
+      "app_id": 214490,
+      "category": "Adventure",
+      "src": "assets/games/214490.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/214490/header.jpg?t=1793034411",
+      "store_source": "https://store.steampowered.com/app/214490/?l=english",
+      "source_name": "Alien: Isolation"
+    },
+    {
+      "title": "Life is Strange",
+      "app_id": 319630,
+      "category": "Adventure",
+      "src": "assets/games/319630.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/319630/header.jpg?t=1772725755",
+      "store_source": "https://store.steampowered.com/app/319630/?l=english",
+      "source_name": "Life is Strange - Episode 1"
+    },
+    {
+      "title": "Slay the Spire",
+      "app_id": 646570,
+      "category": "Strategy",
+      "src": "assets/games/646570.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg?t=1774015376",
+      "store_source": "https://store.steampowered.com/app/646570/?l=english"
+    },
+    {
+      "title": "Grand Theft Auto V",
+      "app_id": 271590,
+      "category": "Open world",
+      "src": "assets/games/271590.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg?t=1765387725",
+      "store_source": "https://store.steampowered.com/app/271590/?l=english"
+    },
+    {
+      "title": "Portal",
+      "app_id": 400,
+      "category": "Puzzle",
+      "src": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400/header.jpg",
+      "artwork_source": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/400/header.jpg",
+      "store_source": "https://store.steampowered.com/app/400/?l=english"
+    }
+  ]
+}

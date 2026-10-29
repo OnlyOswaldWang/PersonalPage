@@ -1,0 +1,100 @@
+.academic-page .eeg-study-dialog{max-width:1120px;width:calc(100vw - 44px);color-scheme:light}
+.academic-page .eeg-study{padding:35px 44px 28px;color:#51606d}
+.academic-page .eeg-study h2{font-size:32px;letter-spacing:-.5px;margin:15px 0 20px}
+.academic-page .eeg-study h3{font-size:21px;line-height:1.5;margin:29px 0 15px}
+.academic-page .eeg-study h4{font:600 14px/1.6 Arial,Helvetica,sans-serif;color:#354b5c;margin:0 0 11px}
+.academic-page .eeg-study p{font:13px/1.9 Arial,Helvetica,sans-serif;color:#687681}
+.academic-page .eeg-study .eyebrow{font:10px/1.5 Arial,Helvetica,sans-serif;letter-spacing:.8px;color:#81909c}
+.academic-page .eeg-study .eeg-intro{font-size:14px;max-width:780px;margin-bottom:25px}
+.academic-page .eeg-study .eeg-lab-context{font-size:11px;color:#8b9ba7;border-bottom:1px solid #e0e7ed;padding-bottom:20px;margin-bottom:15px}
+.eeg-lab-photo{margin:0}
+.eeg-lab-photo>button{padding:0;border:0;background:none;display:block;width:100%;position:relative;cursor:zoom-in;border-radius:5px;overflow:hidden}
+.eeg-photo-frame{position:relative;overflow:hidden;width:100%;background:#f3f5f7}
+.eeg-photo-frame>img{position:absolute;width:var(--photo-width,100%);max-width:none!important;max-height:none!important;left:var(--photo-left,0);top:var(--photo-top,0);height:auto!important;object-fit:fill!important;border-radius:0!important;display:block}
+.eeg-photo-zoom{position:absolute;right:11px;bottom:11px;background:#fffffff0;color:#587187;padding:7px 10px;border-radius:3px;font-size:10px}
+.eeg-lab-photo>figcaption{font-size:11px;line-height:1.8;color:#8394a1;margin-top:10px}
+.eeg-lab-primary{margin:24px auto 28px;max-width:870px}
+.eeg-fitting-gallery{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:24px 0 34px}
+.eeg-session-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 20px;margin:25px 0 35px}
+.eeg-lab-photo>button:focus-visible{outline:2px solid #547b9e;outline-offset:4px}
+.eeg-photo-viewer{max-width:1400px;width:calc(100vw - 36px);max-height:94vh;padding:0;background:#fff;color:#516a7e;border:1px solid #dfe6ec;border-radius:9px;overflow:auto}
+.eeg-photo-viewer::backdrop{background:#132331db;backdrop-filter:blur(4px)}
+.eeg-photo-viewer>header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:15px 19px;border-bottom:1px solid #e2e8ed}
+.academic-page .eeg-photo-viewer>header h3{font:500 13px/1.6 Arial,Helvetica,sans-serif;color:#566f83;margin:0;letter-spacing:0}
+.eeg-photo-viewer button{border:1px solid #dbe4eb;border-radius:3px;background:#fff;color:#5a748a;padding:8px 12px;cursor:pointer;font:11px Arial,Helvetica,sans-serif;white-space:nowrap}
+.eeg-photo-large{padding:15px;display:flex;justify-content:center}
+.eeg-photo-large>.eeg-photo-frame{max-width:min(100%,calc((100vh - 180px) * var(--photo-ratio)));border-radius:3px}
+.eeg-photo-viewer>footer{padding:12px 19px;display:flex;justify-content:space-between;align-items:center;border-top:1px solid #e2e8ed;font-size:11px;color:#9aa7b2}
+@media(max-width:700px){.eeg-fitting-gallery,.eeg-session-gallery{grid-template-columns:1fr;gap:22px}.eeg-lab-primary{margin:20px 0 24px}.eeg-photo-zoom{font-size:9px;padding:6px 8px}.eeg-photo-viewer{width:calc(100vw - 18px);max-height:95vh}.eeg-photo-viewer>header{padding:12px;gap:12px}.academic-page .eeg-photo-viewer>header h3{font-size:11px}.eeg-photo-viewer button{font-size:10px;padding:8px 10px}.eeg-photo-large{padding:9px}.eeg-photo-viewer>footer{padding:12px}.eeg-lab-photo>figcaption{font-size:10px}}
+.eeg-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;padding:24px 0;border-top:1px solid #e0e6eb;border-bottom:1px solid #e0e6eb;margin:10px 0 25px}
+.eeg-summary strong{display:block;font:500 24px/1.5 Arial,Helvetica,sans-serif;color:#355e83}
+.eeg-summary span{display:block;font-size:11px;color:#89949c;margin-top:4px;line-height:1.7}
+.eeg-tabs{display:flex;gap:4px;overflow-x:auto;border-bottom:1px solid #dce4ea;padding:9px 0 10px;margin-bottom:29px;scrollbar-width:thin;position:sticky;top:var(--eeg-toolbar-height,50px);z-index:4;background:white}
+.eeg-tabs button{white-space:nowrap;border:1px solid transparent;background:none;padding:10px 12px;color:#74818c;cursor:pointer;font:12px Arial,Helvetica,sans-serif;border-radius:4px}
+.eeg-tabs button[aria-selected=true]{color:#355e83;border-color:#d9e3ec;background:#f0f5f8;font-weight:600}
+.eeg-tabs button:focus-visible,.eeg-control-row select:focus-visible,.eeg-control-row input:focus-visible,.eeg-disclosure summary:focus-visible{outline:2px solid #547b9e;outline-offset:3px}
+.eeg-workspace [hidden]{display:none!important}
+.eeg-section-heading>span{font-size:9px;letter-spacing:1px;color:#8a9aa6}
+.academic-page .eeg-section-heading h3{font-size:23px;color:#344b5d;margin:10px 0 13px}
+.eeg-hardware-hero{margin:25px 0 30px}
+.eeg-hardware-hero img{display:block;width:100%;max-height:490px;object-fit:contain;background:#f5f6f7;border:1px solid #e0e6eb;border-radius:5px}
+.eeg-hardware-hero figcaption,.eeg-hardware-pair figcaption{font-size:10px;color:#91a0ab;line-height:1.8;margin-top:10px}
+.eeg-overview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:23px 0 28px}
+.eeg-overview-grid.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+.eeg-overview-grid article{padding:19px;border:1px solid #e0e6eb;border-radius:5px;background:#fbfcfd}
+.academic-page .eeg-overview-grid p{font-size:12px;margin:0 0 10px}
+.eeg-overview-grid a{font-size:11px;color:#5e7a92}
+.eeg-process-list{list-style:none;counter-reset:eeg-steps;margin:20px 0 27px;padding:0}
+.eeg-process-list li{counter-increment:eeg-steps;border-top:1px solid #e5ebef;padding:17px 0 17px 40px;position:relative}
+.eeg-process-list li::before{content:counter(eeg-steps,decimal-leading-zero);position:absolute;left:0;top:18px;font-size:10px;color:#95a5b1}
+.eeg-process-list strong{display:block;font-size:13px;font-weight:600;color:#465c6d;margin-bottom:5px}
+.eeg-process-list li>span{display:block;font-size:12px;line-height:1.85;color:#7c8790}
+.eeg-note{padding:19px 22px;border-left:3px solid #7191aa;background:#f4f7fa;margin:25px 0}
+.eeg-note strong{font-size:13px;color:#405c72;font-weight:600}
+.academic-page .eeg-note p{font-size:12px;margin:9px 0 0}
+.eeg-flow{display:flex;gap:14px;align-items:center;flex-wrap:wrap;margin:24px 0;color:#6b8294;font-size:11px}
+.eeg-flow span{border:1px solid #dfe7ed;background:#f8fafb;padding:13px;border-radius:4px}
+.eeg-flow b{font-weight:400;color:#9eacb6}
+.eeg-table-wrap{max-width:100%;overflow-x:auto;scrollbar-width:thin;margin:22px 0 27px;padding-bottom:7px}
+.eeg-table-wrap table{border-collapse:collapse;width:100%;text-align:left;font-size:12px;line-height:1.8;color:#75838e;font-variant-numeric:tabular-nums}
+.eeg-table-wrap caption{text-align:left;font-size:10px;color:#9aa6af;padding-bottom:12px}
+.eeg-table-wrap th,.eeg-table-wrap td{padding:12px 13px;border-bottom:1px solid #e3e9ed;min-width:100px;vertical-align:top}
+.eeg-table-wrap thead th{background:#f6f8fa;font-size:10px;font-weight:600;color:#8193a1}
+.eeg-table-wrap tbody th{font-weight:500;color:#587186}
+.eeg-hardware-pair{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin:25px 0}
+.eeg-hardware-pair figure{margin:0}
+.eeg-hardware-pair img{width:100%;height:310px;object-fit:contain;display:block;border:1px solid #e0e6eb;border-radius:5px}
+.eeg-stat-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;padding:23px 0;border-top:1px solid #e0e7ed;border-bottom:1px solid #e0e7ed;margin:25px 0}
+.eeg-stat-grid span{display:block;font-size:10px;color:#8a9aa6;line-height:1.8}
+.eeg-stat-grid strong{display:block;font-size:22px;line-height:1.5;font-weight:500;color:#3d5d78;margin-top:8px}
+.eeg-disclosure{border-top:1px solid #dfe7ed;margin:25px 0}
+.eeg-disclosure summary{padding:17px 0;font-size:12px;color:#637c91;cursor:pointer}
+.academic-page .eeg-study .eeg-source-note{font-size:10px;line-height:1.9;color:#96a1aa;margin:18px 0 26px}
+.eeg-control-row{display:flex;flex-wrap:wrap;gap:20px;margin:23px 0}
+.eeg-control-row label{display:flex;flex-direction:column;gap:8px;font-size:10px;color:#81909c;min-width:220px;max-width:100%}
+.eeg-control-row select{font:12px/1.5 Arial,Helvetica,sans-serif;border:1px solid #dce4ea;background:#fff;color:#425e75;border-radius:4px;padding:10px 30px 10px 11px;min-height:39px;max-width:100%}
+.eeg-chart-card{padding:21px 23px;border:1px solid #e0e7ed;border-radius:5px;margin:22px 0;background:#fff}
+.eeg-bars>div{display:grid;grid-template-columns:1fr auto;gap:9px;font-size:12px;margin:18px 0}
+.eeg-bars>div>span{color:#5b7184}
+.eeg-bars strong{font-weight:500;color:#47667f;font-variant-numeric:tabular-nums}
+.eeg-bars>div>div{grid-column:1/-1;height:12px;background:#eef2f5;border-radius:3px;overflow:hidden}
+.eeg-bars i{display:block;height:100%;border-radius:3px}
+.eeg-bars small{font-size:10px;color:#96a5b1}
+.eeg-device-charts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:20px 0}
+.eeg-device-charts .eeg-chart-card{margin:0;padding:20px}
+.eeg-formula{border:1px solid #e0e7ed;background:#f8fafb;border-radius:5px;padding:20px 23px;margin:20px 0}
+.eeg-formula>span{font-size:10px;color:#92a1ae;display:block;margin-bottom:10px}
+.eeg-formula code{font:12px/1.9 Consolas,monospace;color:#4b6a82;display:block;overflow-x:auto;white-space:nowrap;margin-bottom:20px}
+.eeg-formula code:last-child{margin-bottom:0}
+.eeg-window-control{width:360px}
+.eeg-window-control input{accent-color:#587d9d;width:100%;min-height:25px;cursor:pointer}
+.eeg-window-demo{border:1px solid #e0e7ed;border-radius:5px;padding:22px;margin:20px 0}
+.eeg-window-demo>div{display:grid;grid-template-columns:75px 1fr;gap:16px;align-items:center;font-size:10px;margin-bottom:12px;color:#8a9cab}
+.eeg-window-demo>div>div{background:#f5f7f9;padding:4px 0;border-radius:3px}
+.eeg-window-demo i{display:block;font-style:normal;background:#7191aa;color:white;font-size:10px;padding:6px 0;text-align:center;border-radius:3px;min-width:40px}
+.eeg-window-demo>small{display:block;font-size:10px;line-height:1.8;color:#8f9da9;margin-top:17px}
+.eeg-footer{border-top:1px solid #dfe7ed;padding-top:21px;margin-top:35px}
+.academic-page .eeg-study .eeg-footer p{font-size:10px;line-height:1.9;color:#9aa5ae;margin-bottom:14px}
+.eeg-footer a{font-size:11px;color:#607c94}
+.eeg-footer a:hover{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:700px){.academic-page .eeg-study-dialog{width:calc(100vw - 22px);max-height:94vh}.academic-page .eeg-study{padding:24px 20px}.academic-page .eeg-study h2{font-size:27px}.academic-page .eeg-study p,.academic-page .eeg-study .eeg-intro{font-size:12px}.eeg-summary{gap:12px;padding:18px 0}.eeg-summary strong{font-size:18px}.eeg-summary span{font-size:9px}.eeg-tabs{gap:0;margin-bottom:23px}.eeg-tabs button{font-size:11px;padding:10px}.academic-page .eeg-section-heading h3{font-size:21px}.eeg-overview-grid,.eeg-overview-grid.two,.eeg-device-charts{grid-template-columns:1fr;gap:14px}.eeg-hardware-pair{grid-template-columns:1fr;gap:20px}.eeg-hardware-pair img{height:300px}.eeg-stat-grid{gap:13px}.eeg-stat-grid strong{font-size:19px}.eeg-stat-grid span{font-size:9px}.eeg-control-row label{min-width:0;width:100%}.eeg-table-wrap table{font-size:11px}.eeg-table-wrap th,.eeg-table-wrap td{padding:10px;min-width:100px}.eeg-chart-card{padding:19px}.eeg-note{padding:18px}.eeg-flow{gap:9px}.eeg-flow span{font-size:10px;padding:11px}.eeg-window-demo{padding:17px}.eeg-window-demo>div{grid-template-columns:55px 1fr;gap:10px}}

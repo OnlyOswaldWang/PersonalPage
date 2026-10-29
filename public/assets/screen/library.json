@@ -1,0 +1,126 @@
+{
+  "note": "Titles and preferences supplied by the owner in Travel.docx. Studio/director entries use representative stills; these do not imply a specific favourite film. Posters and stills remain copyright of their respective rights holders.",
+  "items": [
+    {
+      "id": "metal-family",
+      "src": "assets/screen/metal-family.jpg",
+      "source": "https://www.youtube.com/watch?v=CQUvoNv6eDE",
+      "image_source": "https://i.ytimg.com/vi/CQUvoNv6eDE/hqdefault.jpg",
+      "provider": "Official Metal Family English channel",
+      "title": "Metal Family",
+      "category": "Animation",
+      "note": "A personal favourite.",
+      "link": "https://www.youtube.com/@metalfamilyenglish2907"
+    },
+    {
+      "id": "breaking-bad",
+      "src": "assets/screen/breaking-bad.jpg",
+      "source": "http://www.amc.com/shows/breaking-bad",
+      "image_source": "https://static.tvmaze.com/uploads/images/original_untouched/501/1253519.jpg",
+      "provider": "TVmaze",
+      "provider_url": "https://www.tvmaze.com/shows/169/breaking-bad",
+      "description": "Breaking Bad",
+      "title": "Breaking Bad",
+      "category": "Series",
+      "note": "Crime drama.",
+      "link": "https://www.amc.com/shows/breaking-bad"
+    },
+    {
+      "id": "better-call-saul",
+      "src": "assets/screen/better-call-saul.jpg",
+      "source": "https://www.amc.com/shows/better-call-saul--1002228",
+      "image_source": "https://static.tvmaze.com/uploads/images/original_untouched/501/1253515.jpg",
+      "provider": "TVmaze",
+      "provider_url": "https://www.tvmaze.com/shows/618/better-call-saul",
+      "description": "Better Call Saul",
+      "title": "Better Call Saul",
+      "category": "Series",
+      "note": "Crime drama.",
+      "link": "https://www.amc.com/shows/better-call-saul--1002228"
+    },
+    {
+      "id": "sherlock",
+      "src": "assets/screen/sherlock.jpg",
+      "source": "http://www.bbc.co.uk/programmes/b018ttws",
+      "image_source": "https://static.tvmaze.com/uploads/images/original_untouched/171/428042.jpg",
+      "provider": "TVmaze",
+      "provider_url": "https://www.tvmaze.com/shows/335/sherlock",
+      "description": "Sherlock",
+      "title": "Sherlock",
+      "category": "Series",
+      "note": "Sherlock Holmes. Always a favourite.",
+      "link": "https://www.bbc.co.uk/programmes/b018ttws"
+    },
+    {
+      "id": "conan",
+      "src": "assets/screen/conan.jpg",
+      "source": "http://www.ytv.co.jp/conan/",
+      "image_source": "https://static.tvmaze.com/uploads/images/original_untouched/646/1616242.jpg",
+      "provider": "TVmaze",
+      "provider_url": "https://www.tvmaze.com/shows/5429/detective-conan",
+      "description": "Detective Conan",
+      "title": "Detective Conan",
+      "category": "Animation",
+      "note": "Mysteries, one case at a time.",
+      "link": "https://www.ytv.co.jp/conan/"
+    },
+    {
+      "id": "naruto",
+      "src": "assets/screen/naruto.jpg",
+      "source": "http://www.tv-tokyo.co.jp/anime/naruto/index2.html",
+      "image_source": "https://static.tvmaze.com/uploads/images/original_untouched/3/9744.jpg",
+      "provider": "TVmaze",
+      "provider_url": "https://www.tvmaze.com/shows/495/naruto",
+      "description": "Naruto",
+      "title": "Naruto",
+      "category": "Animation",
+      "note": "The world of Naruto.",
+      "link": "https://naruto-official.com/en"
+    },
+    {
+      "id": "house-of-cards",
+      "src": "assets/screen/house-of-cards.jpg",
+      "source": "https://www.netflix.com/title/70178217",
+      "image_source": "https://static.tvmaze.com/uploads/images/original_untouched/169/424482.jpg",
+      "provider": "TVmaze",
+      "provider_url": "https://www.tvmaze.com/shows/175/house-of-cards",
+      "description": "House of Cards",
+      "title": "House of Cards",
+      "category": "Series",
+      "note": "Political drama.",
+      "link": "https://www.netflix.com/title/70178217"
+    },
+    {
+      "id": "miyazaki",
+      "src": "assets/screen/miyazaki.jpg",
+      "source": "https://www.ghibli.jp/works/chihiro/",
+      "image_source": "https://www.ghibli.jp/gallery/chihiro001.jpg",
+      "provider": "Official studio/distributor",
+      "title": "Hayao Miyazaki",
+      "category": "Film worlds",
+      "note": "The films of Hayao Miyazaki.",
+      "link": "https://www.ghibli.jp/works/"
+    },
+    {
+      "id": "shinkai",
+      "src": "assets/screen/shinkai.jpg",
+      "source": "https://gkids.com/films/your-name/",
+      "image_source": "https://gkids.com/wp-content/uploads/2025/10/YourName_AV019.jpg",
+      "provider": "Official studio/distributor",
+      "title": "Makoto Shinkai",
+      "category": "Film worlds",
+      "note": "The films of Makoto Shinkai.",
+      "link": "https://www.cwfilms.jp/en/"
+    },
+    {
+      "id": "harry-potter",
+      "src": "assets/screen/harry-potter-album.jpg",
+      "source": "Owner-supplied travel photograph",
+      "provider": "Personal album",
+      "title": "Harry Potter",
+      "category": "Film worlds",
+      "note": "The Harry Potter series.",
+      "link": "https://www.harrypotter.com/"
+    }
+  ]
+}

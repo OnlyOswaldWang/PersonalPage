@@ -1,0 +1,134 @@
+﻿1
+00:00:00,800 --> 00:00:06,311
+If university were a game, I didn't begin with a perfect plan.
+如果把大学看作一场游戏，我并没有带着完美的计划开始。
+
+2
+00:00:06,633 --> 00:00:09,331
+I had to discover my own way forward.
+我需要自己找到前进的方向。
+
+3
+00:00:10,200 --> 00:00:13,891
+That changed in my first-year C programming class.
+大一的那节 C 语言课，带来了改变。
+
+4
+00:00:14,082 --> 00:00:20,679
+Writing code felt like building with blocks: a few simple pieces could become something that actually worked.
+写代码像搭积木，简单的模块也能组成真正运行的程序。
+
+5
+00:00:21,061 --> 00:00:22,758
+I wanted to keep building.
+我想继续探索下去。
+
+6
+00:00:24,000 --> 00:00:28,329
+Finishing top of my cohort in that class gave me confidence.
+那门课的专业第一，给了我信心。
+
+7
+00:00:28,801 --> 00:00:33,807
+When the chance came to change my degree, I chose to follow my interest in computing.
+转专业的机会到来时，我选择追随对计算机的兴趣。
+
+8
+00:00:34,800 --> 00:00:38,909
+A university development programme gave me guidance.
+学校的人才培养计划，为我提供了指引。
+
+9
+00:00:39,358 --> 00:00:44,244
+Like finding a walkthrough in a game, it helped me see what might come next.
+就像找到了一份游戏攻略，让我看到了下一步的可能。
+
+10
+00:00:45,200 --> 00:00:51,024
+But progress came from putting that guidance into practice, one problem at a time.
+而真正的进步，来自把指引付诸实践，逐一解决问题。
+
+11
+00:00:51,600 --> 00:00:54,428
+Mathematical modelling tested that resolve.
+数学建模，考验着这份决心。
+
+12
+00:00:54,850 --> 00:00:59,344
+When an approach failed, we checked our assumptions and tried again.
+方法行不通时，我们重新检查假设，再尝试一次。
+
+13
+00:00:59,787 --> 00:01:03,248
+Failure wasn't game over. It was a reason to rethink.
+失败并不是游戏结束，而是提醒我们重新思考。
+
+14
+00:01:04,400 --> 00:01:11,812
+Those long sessions taught me patience: to stay with a difficult problem, and keep working towards an answer.
+那些长时间的探索教会了我耐心：面对难题，坚持寻找答案。
+
+15
+00:01:14,200 --> 00:01:16,739
+The awards brought confidence.
+收获的奖项，给了我信心。
+
+16
+00:01:17,224 --> 00:01:23,118
+Each felt like another star collected, a small sign that the effort was paying off.
+每一份荣誉都像收集到的一颗星，见证着努力带来的进步。
+
+17
+00:01:24,000 --> 00:01:29,439
+Missing a scholarship reminded me that confidence also needs careful preparation.
+与奖学金失之交臂，也提醒我：信心之外，还需要充分准备。
+
+18
+00:01:30,000 --> 00:01:35,624
+Working with the science society taught me to organise a team and learn from others.
+理化学社的经历，让我学会组织团队，也向他人学习。
+
+19
+00:01:37,000 --> 00:01:39,427
+Then came the next step.
+接下来，是新的选择。
+
+20
+00:01:39,870 --> 00:01:45,167
+I chose postgraduate study in robotics at the University of Manchester.
+我选择前往曼彻斯特大学，继续学习机器人学。
+
+21
+00:01:46,000 --> 00:01:48,638
+The eight stars marked my progress.
+八颗星，记录了我的成长。
+
+22
+00:01:49,123 --> 00:01:53,259
+Behind each one were decisions, setbacks, and another attempt.
+每一颗背后，都有选择、挫折，以及再一次尝试。
+
+23
+00:01:54,000 --> 00:02:02,190
+My teammates and tutors helped me find my way, offering ideas, encouragement, and guidance when I needed it.
+一路上，队友与导师的想法、鼓励和指引，帮助我找到方向。
+
+24
+00:02:03,000 --> 00:02:06,330
+There was no ready-made route through university.
+大学没有一条现成的通关路线。
+
+25
+00:02:06,723 --> 00:02:11,190
+I found mine by trying, learning, and choosing to keep going.
+我在尝试、学习和坚持中，走出了自己的路。
+
+26
+00:02:12,000 --> 00:02:14,589
+I started without a clear direction.
+最初，我没有清晰的方向。
+
+27
+00:02:15,091 --> 00:02:17,440
+Now I'm ready for the next chapter.
+现在，我已准备好开启新的篇章。
